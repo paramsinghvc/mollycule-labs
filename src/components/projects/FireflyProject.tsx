@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import Image from 'next/image';
-import FireflyBug from './firefly-bug';
+import FireflyBug, { FIREFLY_TRAGECTORY } from './firefly-bug';
 
 export default function FireflyProject() {
   const ref = useRef(null);
@@ -100,7 +100,10 @@ export default function FireflyProject() {
       <div className="sticky top-0 h-dvh w-dvw flex flex-col items-center justify-start">
         {/* Bug */}
         <div className="absolute left-0 top-[20dvh] w-dvw h-[20dvh]">
-          <FireflyBug offsetDistance={offsetDistance} />
+          <FireflyBug
+            offsetDistance={offsetDistance}
+            offsetPath={FIREFLY_TRAGECTORY}
+          />
         </div>
 
         {/* Titles */}

@@ -8,8 +8,10 @@ export const FIREFLY_TRAGECTORY =
 
 export default function FireflyBug({
   offsetDistance,
+  offsetPath,
 }: {
-  offsetDistance: MotionValue<string>;
+  offsetDistance?: MotionValue<string>;
+  offsetPath?: string;
 }) {
   const [toggle, setToggle] = useState(false);
 
@@ -25,17 +27,17 @@ export default function FireflyBug({
   return (
     <motion.div
       style={{
-        offsetPath: `path('${FIREFLY_TRAGECTORY}')`,
+        offsetPath: offsetPath && `path('${offsetPath}')`,
         offsetRotate: 'auto 90deg',
         transformOrigin: 'center',
         offsetDistance,
       }}
       transition={{ ease: 'easeInOut' }}
-      className="w-min"
+      className="absolute top-0 left-0 w-full h-full"
     >
       <svg
-        width="124"
-        height="160"
+        className="w-full h-full"
+        preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 124 160"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
