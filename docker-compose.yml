@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  nextjs:
+    image: mollycule-labs-website
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextjs-app
+    ports:
+      - "8085:8085"
+    environment:
+      NODE_ENV: production
+      PORT: 8085
+      HOST: 0.0.0.0
+    restart: unless-stopped
