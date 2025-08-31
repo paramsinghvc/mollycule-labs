@@ -214,14 +214,14 @@ export default function Page() {
                 Home
               </MotionedLink>
               <MotionedLink
-                href="/privacy-policy"
+                href="https://firefly.mollyculelabs.com/privacy-policy"
                 variants={itemVariants}
                 whileHover={{ scale: 1.1 }}
               >
                 Privacy Policy
               </MotionedLink>
               <MotionedLink
-                href="/terms-and-conditions"
+                href="https://firefly.mollyculelabs.com/terms-and-conditions"
                 variants={itemVariants}
                 whileHover={{ scale: 1.1 }}
               >
