@@ -22,7 +22,8 @@ export default function ScrollDown() {
   const opacity = useTransform(scrollY, [100, 200], [1, 0]);
 
   return (
-    <motion.button
+    <motion.a
+      href="#mollycule-projects"
       className="flex flex-col items-center justify-center bg-transparent border-none cursor-pointer"
       style={{ opacity }}
       initial={{ y: -10 }}
@@ -39,6 +40,6 @@ export default function ScrollDown() {
     >
       <MouseSvg className="w-10 h-10 text-black" />
       <ChevronSvg className="w-10 h-10 text-black" />
-    </motion.button>
+    </motion.a>
   );
 }

@@ -1,6 +1,8 @@
+import Footer from '@/components/footer';
 import HeroText from '@/components/hero-text';
 import Menu from '@/components/menu';
 import ParallaxLayer from '@/components/parallax-layer';
+import Projects from '@/components/projects';
 import ScrollDown from '@/components/scroll-down';
 import VscodeWindow from '@/components/vscode-window';
 import Image from 'next/image';
@@ -21,7 +23,8 @@ export default function Home() {
         </div>
         {/* <ParallaxLayer /> */}
       </div>
-      <div className="h-80"></div>
+      <Projects />
+      <Footer />
     </div>
   );
 }

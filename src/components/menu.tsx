@@ -50,7 +50,9 @@ export default function Menu() {
           className="relative inline-block mt-1.5 w-8 h-1 bg-black rounded"
         />
       </motion.button>
-      <AnimatePresence>{isOpen && <MenuOverlay />}</AnimatePresence>
+      <AnimatePresence>
+        {isOpen && <MenuOverlay onClose={() => setIsOpen(false)} />}
+      </AnimatePresence>
     </>
   );
 }

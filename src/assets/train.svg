@@ -1,0 +1,79 @@
+<svg width="1733" height="306" viewBox="0 0 1733 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<g clip-path="url(#clip0_7_41)">
+		<path
+			d="M1466 21.5H1234.5C1227 22 1224 22.7307 1221.5 26C1219 29.2693 1217.5 31 1217.5 38.5V234.5C1217.5 241 1216.65 249.903 1221 255.5C1224.5 260 1228 261 1234.5 261H1624.5C1666.5 259 1682 257 1703.5 233.5C1725 210 1716.5 146 1682 112C1647.5 78.0001 1595.94 53.153 1570 42.5C1562.5 39.4196 1530 24.5 1466 21.5Z"
+			fill="#ffffff" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path
+			d="M1555 64.5H1615C1625 68.6667 1640.74 78.7349 1656 90C1677 105.5 1692 122.667 1696 129.5L1695.02 129.52C1678.28 129.859 1647.54 130.481 1624.5 129.5C1617.01 129.181 1607.5 125 1602 121.5C1576.5 105.273 1547 81 1545.5 73C1544.76 69.0685 1547 64.5 1555 64.5Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M1219 226.5H1705" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M1344 65.5V258" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M1443 66L1443.5 261" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M1402.5 161H1417.5" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path
+			d="M1294.45 65.4489H1451.5C1471 65.4489 1475 65 1481.31 65.4489C1486 67.5 1516.62 98.6398 1533.27 114.727C1537.55 119 1535.96 123.165 1534.77 126.412C1534.19 128 1531 132 1526.28 132H1218V65.4489H1250.98"
+			stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path
+			d="M1219.5 189.5H1527C1528.5 189.5 1532.2 189.4 1535 191C1537.8 192.6 1550 202.5 1556 208.5"
+			stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M1291.5 294C1263.5 294 1257.67 271.667 1255.5 261H1331.5C1327 273 1323 294 1291.5 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M1392 296C1364 296 1358.17 273.667 1356 263H1432C1427.5 275 1423.5 296 1392 296Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M1492 294C1464 294 1458.17 271.667 1456 261H1532C1527.5 273 1523.5 294 1492 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M1592 294C1564 294 1558.17 271.667 1556 261H1632C1627.5 273 1623.5 294 1592 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path
+			d="M1657.5 163C1651.97 160.826 1639 158.5 1636 165.5C1635 179 1645.54 196.382 1653 201C1663.5 207.5 1680 205 1681 195.5C1682.26 183.525 1671.5 168.5 1657.5 163Z"
+			fill="#3F51B5" />
+		<path
+			d="M894 21.5H662.5C655 22 652 22.7307 649.5 26C647 29.2693 645.5 31 645.5 38.5V234.5C645.5 241 644.647 249.903 649 255.5C652.5 260 656 261 662.5 261H1052.5H1122C1138 261 1142.5 261 1142.5 249.5V91C1142.5 20 1149 21.5 1105.5 21.5H894Z"
+			fill="#ffffff" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M647 226.5L1136 227.001" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M772 65.5V258" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M871 66L871.5 261" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M830.5 161H845.5" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path
+			d="M722.445 65.4489H879.5C899 65.4489 1131.69 65 1138 65.4489M1138 132H646V65.4489H678.976"
+			stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M719.5 294C691.5 294 685.667 271.667 683.5 261H759.5C755 273 751 294 719.5 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M820 296C792 296 786.167 273.667 784 263H860C855.5 275 851.5 296 820 296Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M920 294C892 294 886.167 271.667 884 261H960C955.5 273 951.5 294 920 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M1020 294C992 294 986.167 271.667 984 261H1060C1055.5 273 1051.5 294 1020 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M969 68V130.5M1056.5 65.5V130.5" stroke="black" stroke-width="12" />
+		<path
+			d="M322 21.5H90.5C83 22 80 22.7307 77.5 26C75 29.2693 73.5 31 73.5 38.5V234.5C73.5 241 72.647 249.903 77 255.5C80.4999 260 84 261 90.5 261H480.5H550C566 261 570.5 261 570.5 249.5V91C570.5 20 577 21.5 533.5 21.5H322Z"
+			fill="#ffffff" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M75 226.5L564 227.001" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M200 65.5V258" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M299 66L299.5 261" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M258.5 161H273.5" stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M150.445 65.4489H307.5C327 65.4489 559.689 65 566 65.4489M566 132H74V65.4489H106.976"
+			stroke="black" stroke-width="12" stroke-linecap="round" />
+		<path d="M147.5 294C119.5 294 113.667 271.667 111.5 261H187.5C183 273 179 294 147.5 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M248 296C220 296 214.167 273.667 212 263H288C283.5 275 279.5 296 248 296Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M348 294C320 294 314.167 271.667 312 261H388C383.5 273 379.5 294 348 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M448 294C420 294 414.167 271.667 412 261H488C483.5 273 479.5 294 448 294Z"
+			fill="#3F51B5" fill-opacity="0.5" stroke="black" stroke-width="12" />
+		<path d="M397 68V130.5M484.5 65.5V130.5" stroke="black" stroke-width="12" />
+		<rect x="597" y="163" width="21" height="32" rx="7" fill="black" />
+		<path d="M570 178.5H645" stroke="black" stroke-width="12" />
+		<rect x="27" y="164" width="21" height="32" rx="7" fill="black" />
+		<path d="M0 179.5H75" stroke="black" stroke-width="12" />
+		<rect x="1169" y="161" width="21" height="32" rx="7" fill="black" />
+		<path d="M1142 176.5H1217" stroke="black" stroke-width="12" />
+	</g>
+	<defs>
+		<clipPath id="clip0_7_41">
+			<rect width="1733" height="306" fill="white" />
+		</clipPath>
+	</defs>
+</svg>

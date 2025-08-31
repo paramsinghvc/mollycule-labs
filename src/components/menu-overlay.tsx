@@ -32,9 +32,13 @@ const inkbarVariants: Variants = {
   hovering: { scaleX: 1, transition: { duration: 0.3, ease: easeInOut } },
 };
 
-const MenuItem: FC<PropsWithChildren> = ({ children }) => (
+const MenuItem: FC<
+  PropsWithChildren<{ href: string; onClose: () => void }>
+> = ({ href, children, onClose }) => (
   <motion.li variants={listItemVariants} className="px-4 py-8 cursor-pointer">
     <motion.a
+      href={href}
+      onClick={onClose}
       className="relative text-4xl font-medium"
       whileHover="hovering"
       initial="initial"
@@ -48,11 +52,12 @@ const MenuItem: FC<PropsWithChildren> = ({ children }) => (
   </motion.li>
 );
 
-export default function MenuOverlay() {
+export default function MenuOverlay({ onClose }: { onClose: () => void }) {
   return (
     <motion.div
-      className="w-dvw h-dvh bg-yellow-600 fixed flex justify-center items-center top-0 left-0 origin-top-right z-2"
+      className="w-dvw h-dvh bg-emerald-800 fixed flex justify-center items-center top-0 left-0 origin-top-right z-2"
       transition={{
+        delay: 0.3,
         duration: 0.3,
         ease: 'easeInOut',
       }}
@@ -70,9 +75,15 @@ export default function MenuOverlay() {
         initial="initial"
         animate="visible"
       >
-        <MenuItem>Home</MenuItem>
-        <MenuItem>Projects</MenuItem>
-        <MenuItem>Contact</MenuItem>
+        <MenuItem href="#" onClose={onClose}>
+          Home
+        </MenuItem>
+        <MenuItem href="#mollycule-projects" onClose={onClose}>
+          Projects
+        </MenuItem>
+        <MenuItem href="#mollycule-contact" onClose={onClose}>
+          Contact
+        </MenuItem>
       </motion.ul>
     </motion.div>
   );
