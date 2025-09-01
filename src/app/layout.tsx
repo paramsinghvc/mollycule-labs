@@ -4,6 +4,8 @@ import { Fira_Code } from 'next/font/google';
 
 import './globals.css';
 import Script from 'next/script';
+import CookieConsent from '@/components/cookie-consent';
+import Analytics from '@/components/analytics';
 
 const parkinsans = Parkinsans({
   subsets: ['latin'],
@@ -45,6 +47,7 @@ export default function RootLayout({
           }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
