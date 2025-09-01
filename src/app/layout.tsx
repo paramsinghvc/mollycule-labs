@@ -3,6 +3,7 @@ import { Parkinsans } from 'next/font/google';
 import { Fira_Code } from 'next/font/google';
 
 import './globals.css';
+import Script from 'next/script';
 
 const parkinsans = Parkinsans({
   subsets: ['latin'],
@@ -27,6 +28,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${parkinsans.variable} font-sans antialiased`}>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-WYDZBVJ770"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WYDZBVJ770');
+            `,
+          }}
+        />
         {children}
       </body>
     </html>
