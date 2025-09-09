@@ -30,6 +30,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         {/* Primary SVG favicon for modern browsers */}
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/icon.svg" type="image/svg+xml" />
       </Head>
       <body className={`${parkinsans.variable} font-sans antialiased`}>
         <Script
