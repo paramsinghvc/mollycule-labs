@@ -4,18 +4,14 @@ import { Fira_Code } from 'next/font/google';
 
 import './globals.css';
 import Script from 'next/script';
-import CookieConsent from '@/components/cookie-consent';
 import Analytics from '@/components/analytics';
+import Head from 'next/head';
 
 const parkinsans = Parkinsans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'], // choose what you need
   variable: '--font-parkinsans',
 });
-
-// app/layout.tsx
-
-const firaCode = Fira_Code({ subsets: ['latin'], weight: ['400', '500'] });
 
 export const metadata: Metadata = {
   title: 'Mollycule Labs',
@@ -29,6 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        {/* Legacy fallback for non-SVG browsers */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        {/* Primary SVG favicon for modern browsers */}
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+      </Head>
       <body className={`${parkinsans.variable} font-sans antialiased`}>
         <Script
           strategy="afterInteractive"

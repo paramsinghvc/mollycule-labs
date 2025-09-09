@@ -35,8 +35,19 @@ export default function Footer() {
     >
       <div className="flex items-start justify-evenly w-full gap-10">
         <div className="flex flex-col gap-2">
-          <p>Where modern design meets real-life solutions.</p>
-          <h2 className="font-semibold text-2xl">Mollycule Labs</h2>
+          <div className="flex gap-6">
+            <Image
+              src="/WhiteLogo.svg"
+              alt="Mollycule Labs Logo"
+              width={0}
+              height={0}
+              className="h-auto w-[80px]"
+            />
+            <div className="flex flex-col gap-2">
+              <h2 className="font-semibold text-2xl">Mollycule Labs</h2>
+              <p>Where modern design meets real-life solutions.</p>
+            </div>
+          </div>
           <motion.div
             className="flex gap-4 pt-4"
             variants={listVariants}
